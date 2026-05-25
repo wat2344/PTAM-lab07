@@ -1,5 +1,5 @@
 # PTAM-lab07
-##Laboratory work VII
+## Laboratory work VII
 Данная лабораторная работа посвещена изучению систем управления пакетами на примере Hunter
 ```bash
 $ export GITHUB_USERNAME=<имя_пользователя>
