@@ -2,17 +2,17 @@
 ## Laboratory work VII
 Данная лабораторная работа посвещена изучению систем управления пакетами на примере Hunter
 ```bash
-$ export GITHUB_USERNAME=<имя_пользователя>
+$ export GITHUB_USERNAME=<wat2344>
 $ alias gsed=sed
 
 $ cd ${GITHUB_USERNAME}/workspace
 $ pushd .
 $ source scripts/activate
 
-$ git clone https://github.com/${GITHUB_USERNAME}/lab06 projects/lab07
-$ cd projects/lab07
+$ git clone https://github.com/${GITHUB_USERNAME}/PTAM-lab06 projects/PTAM-lab07
+$ cd projects/PTAM-lab07
 $ git remote remove origin
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab07
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/PTAM-lab07
 ```
 устанавливаем переменную, псевдоним и копируем репозиторий
 ```bash
@@ -69,7 +69,7 @@ $ ls -la $HOME/.hunter
 [100%] Built target check
 
 Running tests...
-Test project /home/rama/Ramil-caramel/workspace/projects/lab07/_builds
+Test project /home/wat2344/workspace/projects/PTAM-lab07/_builds
     Start 1: check
 1/1 Test #1: check ............................   Passed    0.00 sec
 
@@ -77,9 +77,9 @@ Test project /home/rama/Ramil-caramel/workspace/projects/lab07/_builds
 
 Total Test time (real) =   0.01 sec
 
-drwxrwxr-x  3 rama rama 4096 Mar 21 14:25 .
-drwxr-x--- 20 rama rama 4096 Mar 21 14:26 ..
-drwxrwxr-x  6 rama rama 4096 Mar 21 14:26 _Base
+drwxrwxr-x  3   4096 Mar 21 14:25 .
+drwxr-x--- 20   4096 Mar 21 14:26 ..
+drwxrwxr-x  6   4096 Mar 21 14:26 _Base
 
 ```
 ```bash
@@ -118,7 +118,7 @@ $ tools/polly/bin/polly.py --toolchain clang-cxx14
   ctest [options]
 
 -
-Log saved: /home/rama/Ramil-caramel/workspace/projects/lab07/_logs/polly/default/log.txt
+Log saved: /home/wat2344/workspace/projects/PTAM-lab07/_logs/polly/default/log.txt
 -
 Generate: 0:00:02.964655s
 Build: 0:00:01.951332s
@@ -128,10 +128,10 @@ Total: 0:00:04.935524s
 -
 SUCCESS
 
-"-DCMAKE_TOOLCHAIN_FILE=/home/rama/Ramil-caramel/workspace/projects/lab07/tools/polly/default.cmake" "-DCMAKE_INSTALL_PREFIX=/home/rama/Ramil-caramel/workspace/projects/lab07/_install/default"
+"-DCMAKE_TOOLCHAIN_FILE=/home/wat2344/workspace/projects/PTAM-lab07/tools/polly/default.cmake" "-DCMAKE_INSTALL_PREFIX=/home/wat2344/workspace/projects/PTAM-lab07/_install/default"
 ?                   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Log saved: /home/rama/Ramil-caramel/workspace/projects/lab07/_logs/polly/clang-cxx14/log.txt
+Log saved: /home/wat2344/workspace/projects/PTAM-lab07/_logs/polly/clang-cxx14/log.txt
 -
 Generate: 0:00:24.950721s
 Build: 0:00:01.736528s
